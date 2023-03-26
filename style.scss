@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+
+body {
+    background-color: #181a29;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #1f2138;
+    box-shadow: 10px 10px #161827;
+    width:50vw;
+    height: 300px;
+    color: #a2a5c4;
+    display: flex;
+    flex-direction: column;
+    align-items: auto;
+    justify-content: space-around;
+    font-size: 13px;
+    padding: 40px;
+    padding-right: 20px;
+ font-weight: 800;
+    .within {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 50%;
+
+    }
+    
+
+    .top {
+        .image {
+            margin-left: 20px;
+            background-color: #141b32;
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            img {
+                width: 60px;
+                height: 60px;
+                border-radius: 70%;
+            }
+        }
+        
+
+    }
+
+    .images-below{
+        width: 60%;
+        justify-self:
+        flex-end;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+       border-top: 1px solid red;
+       padding-top: 20px;
+
+       .for-images{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+
+        img{
+            width: 25px;
+            filter: invert(90%) ;
+
+        }
+       }
+
+       button{
+        background-color:#1e88de;
+        border: none;
+        padding: 15px 30px;
+    color: #ffff;
+    border-radius: 20px;
+    font-size: 20ox;
+       }
+
+    }
+}
